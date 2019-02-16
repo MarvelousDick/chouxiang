@@ -1,17 +1,16 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true,
-		"autoAudits": false
+		"newFeature": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
 	"appid": "wx4a87671ad8d9185e",
-	"projectname": "chouxiang",
+	"projectname": "%22%E5%AE%88%E6%9C%9B%E8%BD%A9%22%E7%BD%91%E7%AB%99%E5%B0%8F%E7%A8%8B%E5%BA%8F",
 	"condition": {
 		"search": {
 			"current": -1,
