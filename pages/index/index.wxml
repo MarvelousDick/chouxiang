@@ -14,7 +14,7 @@
 <import src="../../templates/common-list.wxml" />
 <import src="../../templates/copyright.wxml" />
 
-<view class="index-header" style="display:{{displaySwiper}}">
+<!-- <view class="index-header" style="display:{{displaySwiper}}">
   <swiper class="index-swiper" indicator-dots="true" interval="10000" autoplay="true" indicator-color="rgba(255, 255, 255, .2)" indicator-active-color="rgba(255, 255, 255, .7)">
     <block wx:key="id" wx:for="{{postsShowSwiperList}}">
       <swiper-item id="{{item.id}}" index="{{index}}" data-redicttype="{{item.type}}" data-appid="{{item.appid}}" data-url="{{item.url}}" bindtap="redictAppDetail">
@@ -26,7 +26,7 @@
       </swiper-item>
     </block>
   </swiper>
-</view>
+</view> -->
 
 <view class="showerror" style="display:{{showerror}}">
   <image src="../../images/cry80.png" style="height:100rpx;width:100rpx"></image>
@@ -38,17 +38,17 @@
 
 <view style="display:{{showallDisplay}}">
 
-  <view style="display:{{floatDisplay}}">
-    <form catchsubmit="formSubmit" catchreset="formReset" id="search-form">
+  <!-- <view style="display:{{floatDisplay}}"> -->
+    <!-- <form catchsubmit="formSubmit" catchreset="formReset" id="search-form">
       <view class="search-pancel">
         <input value="" id="search-input" name="input" confirm-type="search" class="search-input" placeholder="搜索你感兴趣的内容..." bindconfirm="formSubmit"></input>
         <button class="search-button" form-type="submit" size="mini" plain="true">
           <icon type="search" color="#959595" size="12" />
         </button>
       </view>
-    </form>
+    </form> -->
     <!-- 图标导航 -->
-    <view class="top-Nav">
+    <!-- <view class="top-Nav">
       <block wx:for="{{topNav}}" wx:key="id">
         <view class="top-item" catchtap="onNavRedirect" id="{{item.id}}" data-redicttype="{{item.redirecttype}}" data-url="{{item.url}}" data-appid="{{item.appid}}" data-extraData="{{item.extraData}}">
           <view>
@@ -59,20 +59,19 @@
           </view>
         </view>
       </block>
-      <!-- <view class="top-item" style='width:10%; position: relative; float:left; text-align:center'>
-                    <view>
-                        <image src="../../images/kefu.png"></image>
-                    </view>
-                    <view>
-                        <text>客服</text>
-                    </view>
-                    <button class="share-button" open-type="contact">
-                    </button>
-                </view> -->
-    </view>
+      <view class="top-item" style='width:10%; position: relative; float:left; text-align:center'>
+        <view>
+          <image src="../../images/kefu.png"></image>
+        </view>
+        <view>
+          <text>客服</text>
+        </view>
+        <button class="share-button" open-type="contact">
+        </button>
+      </view>
+    </view> -->
     <!-- 图标导航 -->
-
-    <view class='top-Nav2'>
+    <!-- <view class='top-Nav2'>
       <navigator url='../hot/hot' hover-class='none'>
         <view class="top-Nav2-item">
           <view class="top-Nav2-item-word">
@@ -89,11 +88,8 @@
           </view>
         </view>
       </navigator>
-    </view>
-
-
-
-  </view>
+    </view> -->
+  <!-- </view> -->
   <view class="container">
     <!-- 加载图文列表 -->
     <view class="index-container">

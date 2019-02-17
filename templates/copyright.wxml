@@ -1,3 +1,4 @@
 <template name="tempCopyright">
-<view>  © 2018 守望轩 watch-life.net      </view>
+<view>  © 2019 狗粉丝   </view>
+<!-- <view>  © 2018 守望轩 watch-life.net      </view> -->
 </template>

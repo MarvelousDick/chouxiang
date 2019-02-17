@@ -33,12 +33,6 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/topic/topic",
-                "iconPath": "images/tar-topic.png",
-                "selectedIconPath": "images/tar-topic-on.png",
-                "text": "专题"
-            },
-            {
                 "pagePath": "pages/readlog/readlog",
                 "iconPath": "images/tar-person.png",
                 "selectedIconPath": "images/tar-person-on.png",
